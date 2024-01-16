@@ -56,12 +56,47 @@ header, aside, main {
   border: 1px solid black;
   padding: 20px;
 }
+
 /* Styles starts here */
+
+/* Fonts */
+body {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* General IMG style */
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Sidebar Styles */
+aside h2 {
+  color: white;
+}
+
+aside li {
+  display: grid;
+  grid-template-columns: 60px 4fr;
+  grid-template-rows: 45px;
+  align-items: center;
+  
+}
+
+.logo-container {
+  margin-bottom: 30px;
+}
 
 .container {
   display: grid;
   height: 100vh;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1.4fr 4fr;
   grid-template-rows: 1fr 5fr;
 }
 
@@ -78,5 +113,14 @@ aside {
 
 main {
   grid-column: 2 / 3;
+  
+}
 
+.logo {
+  width: 48px;
+}
+
+.icon {
+  width: 32px;
+  fill: white;
 }
