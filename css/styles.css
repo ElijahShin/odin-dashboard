@@ -76,23 +76,7 @@ img {
   height: auto;
 }
 
-/* Sidebar Styles */
-aside h2 {
-  color: white;
-}
-
-aside li {
-  display: grid;
-  grid-template-columns: 60px 4fr;
-  grid-template-rows: 45px;
-  align-items: center;
-  
-}
-
-.logo-container {
-  margin-bottom: 30px;
-}
-
+/* General Grid Layout */
 .container {
   display: grid;
   height: 100vh;
@@ -116,11 +100,66 @@ main {
   
 }
 
+/* Sidebar Styles */
+aside h2 {
+  color: white;
+}
+
+aside li {
+  display: grid;
+  grid-template-columns: 60px 4fr;
+  grid-template-rows: 45px;
+  align-items: center;
+  
+}
+
+.logo-container {
+  margin-bottom: 30px;
+}
+
 .logo {
   width: 48px;
 }
 
 .icon {
   width: 32px;
-  fill: white;
+}
+
+.sidebar-icon {
+  width: 32px;
+}
+
+.profile-icon-sm {
+  width: 60px;
+}
+
+.profile-icon-lg {
+  width: 90px;
+}
+
+/* Header Styles */
+header {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+  grid-template-columns: 5fr 2fr;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgb(53, 134, 203);
+  padding: 10px 30px;
+  border-radius: 27px;
+}
+
+.search-container  button {
+  background-color: white;
+}
+
+
+.search-btn {
+  width: 30px;
+  border: none;
 }
