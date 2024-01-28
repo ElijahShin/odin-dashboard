@@ -144,20 +144,59 @@ header {
   grid-template-columns: 5fr 2fr;
 }
 
-button {
+/* Search box */
+
+input[type="text"] {
+  width: 70%;
+  height: 32px;
+  border-radius: 15px;
+  border: none;
+  background-color: rgba(207, 207, 207, 0.435);
+}
+
+.search-container {
+  display: grid;
+  grid-template-columns: .3fr 5fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.search-container button {
+  border: none;
+  align-self: center;
+}
+
+/* Notification bell */
+.bell-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  grid-template-rows: 1fr;
+  justify-items: center;;
+  align-items: center;
+}
+
+
+/* 3 Buttons */
+.btns-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  align-items: center;
+}
+
+.btns-container button {
   border: none;
   cursor: pointer;
   font-size: 1.2rem;
   color: white;
   background-color: rgb(53, 134, 203);
-  padding: 10px 30px;
+  padding: 10px 25px;
   border-radius: 27px;
 }
 
 .search-container  button {
   background-color: white;
 }
-
 
 .search-btn {
   width: 30px;
