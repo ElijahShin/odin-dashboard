@@ -69,6 +69,16 @@ h2 {
   font-weight: 600;
 }
 
+h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+h5 span {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
 /* General IMG style */
 
 img {
@@ -80,7 +90,7 @@ img {
 .container {
   display: grid;
   height: 100vh;
-  grid-template-columns: 1.4fr 4fr;
+  grid-template-columns: 1.1fr 4fr;
   grid-template-rows: 1fr 5fr;
 }
 
@@ -134,7 +144,7 @@ aside li {
 }
 
 .profile-icon-lg {
-  width: 90px;
+  width: 110px;
 }
 
 /* Header Styles */
@@ -182,6 +192,7 @@ input[type="text"] {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 30px;
   align-items: center;
+  padding-top: 30px;
 }
 
 .btns-container button {
@@ -201,4 +212,25 @@ input[type="text"] {
 .search-btn {
   width: 30px;
   border: none;
+}
+
+/* Hi there header styles */
+.greet-container {
+  display: grid;
+  grid-template-columns: 130px 3fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.profile-icon-lg {
+  justify-self: center;
+}
+
+.hello-text {
+  display: grid;
+  row-gap: 18px;
+}
+
+h5 > span {
+  
 }
