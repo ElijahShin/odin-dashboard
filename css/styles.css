@@ -108,7 +108,7 @@ img {
 .container {
   display: grid;
   height: 100vh;
-  grid-template-columns: 1.1fr 4fr;
+  grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 5fr;
 }
 
@@ -310,4 +310,19 @@ main {
 
 .center-align {
   align-self: center;
+}
+
+.user-container {
+  display: grid;
+
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  align-items: center;
+}
+
+.user img {
+  border-radius: 50%;
 }
